@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Names" parallel="false" thread-count="2">
+	<test name="namesFunctional2">
+		<groups>
+			<run>
+				<include name="namesFunctional2"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="scripts.NamesScripts"></class>
+		</classes>
+	</test>
+</suite>

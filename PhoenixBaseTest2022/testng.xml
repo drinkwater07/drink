@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="scripts.GeoScripts"></class>
+      <class name="scripts.InventoryScripts"/>
+      <class name="scripts.NamesScripts"></class>
+      <class name="scripts.SchedulingScripts"/>
+      <class name="scripts.SettingsScripts"/><class name="scripts.TrainingScripts"></class>
+    	<class name="scripts.VehicleScripts"></class>
+    </classes>
+  </test> <!-- Test --><listeners>
+	<listener class-name="com.pack.listeners.TestListener"></listener></listeners>
+</suite> <!-- Suite -->

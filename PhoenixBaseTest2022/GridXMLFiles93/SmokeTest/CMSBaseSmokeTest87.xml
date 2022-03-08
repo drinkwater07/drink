@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BaseSmokeTest87" parallel="false" thread-count="3">
+	<test name="SmokeTestCMS">
+		<groups>
+			<run>
+				<include name="CMS87"></include></run></groups>
+		<classes>
+			<class name="scripts.BaseSmokeTest87"></class>
+		</classes>
+	</test>
+</suite>
+

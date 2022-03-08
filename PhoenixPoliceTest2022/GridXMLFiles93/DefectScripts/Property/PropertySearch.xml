@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Property" parallel="false" thread-count="1">
+	<test name="PropertySearch">
+		<groups>
+			<run>
+				<include name="PropertySearch"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="scripts.PropertyScripts"></class>
+		</classes>
+	</test>
+</suite>

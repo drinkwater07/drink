@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PropertyFunctional2020_2" parallel="false" thread-count="1">
+	<test name="PropertyFunctional2020_2">
+		<groups>
+			<run>
+				<include name="PropertyFunctional2020_2"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="scripts.PropertyScripts"></class>
+		</classes>
+	</test>
+</suite>

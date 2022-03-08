@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TrafficNJ" parallel="true" thread-count="2">
+	<test name="TrafficNJParkingEntry">
+		<groups>
+			<run>
+				<include name="ParkingEnytu"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="scripts.TrafficScripts"></class>
+		</classes>
+	</test>
+</suite>

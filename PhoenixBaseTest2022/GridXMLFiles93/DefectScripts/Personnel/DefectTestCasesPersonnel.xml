@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Personnel" parallel="false" thread-count="3">
+	<test name="2020PersonnelDefectTestCases">
+		<groups>
+			<run>
+				<include name="DefectTestCases1"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="scripts.PersonnelScripts"></class>
+		</classes>
+	</test>
+</suite>

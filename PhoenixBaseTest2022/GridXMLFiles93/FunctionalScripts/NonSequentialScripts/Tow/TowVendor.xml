@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Tow" parallel="false" thread-count="2">
+	<test name="TowVendorTestCases">
+		<groups>
+			<run>
+				<include name="TowVendor"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="scripts.TowScripts"></class>
+		</classes>
+	</test>
+</suite>

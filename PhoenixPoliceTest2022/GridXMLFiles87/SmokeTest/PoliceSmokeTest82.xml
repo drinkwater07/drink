@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PoliceSmokeTest82" parallel="false" thread-count="3">
+	<test name="SmokeTest">
+		
+		<classes>
+			<class name="scripts.PoliceSmokeTest82"></class>
+		</classes>
+	</test>
+</suite>
+

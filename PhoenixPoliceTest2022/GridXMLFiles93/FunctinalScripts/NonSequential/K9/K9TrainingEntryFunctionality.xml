@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="K9" parallel="false" thread-count="2">
+	<test name="K9TrainingAndActivityEntry">
+		<groups>
+			<run>
+				<include name="K9TrainingAndActivityFunctionality"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="scripts.K9Scripts"></class>
+		</classes>
+	</test>
+</suite>

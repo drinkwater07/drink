@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Geo2021Defect" parallel="false" thread-count="3">
+	<test name="2021DefectTestcases">
+		<groups>
+			<run>
+				<include name="2022DefectTestCasesGeo"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="scripts.GeoScripts"></class>
+		</classes>
+	</test>
+</suite>

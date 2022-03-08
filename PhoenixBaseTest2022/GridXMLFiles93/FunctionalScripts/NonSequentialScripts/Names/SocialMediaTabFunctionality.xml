@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Names" parallel="false" thread-count="3">
+	<test name="socialMedia">
+		<groups>
+			<run>
+				<include name="socialMedia"></include>
+				</run>
+				</groups>
+		<classes>
+			<class name="scripts.NamesScripts"></class>
+		</classes>
+	</test>
+</suite>

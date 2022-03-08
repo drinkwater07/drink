@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AnimalControl" parallel="false" thread-count="2">
+	<test name="AnimalControlScreensFunctional">
+		<groups>
+			<run>
+				<include name="AnimalControlFunctional"></include>
+			</run>
+		</groups>
+			<classes>
+			<class name="scripts.AnimalControlScripts"></class>
+		</classes>
+	</test>
+</suite>

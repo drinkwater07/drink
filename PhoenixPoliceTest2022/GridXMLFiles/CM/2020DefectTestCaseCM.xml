@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CM" parallel="true" thread-count="2">
+	<test name="CM2020DefectTestCases">
+		<groups>
+			<run>
+				<include name="2020DefectTestCase"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="scripts.CMScripts"></class>
+		</classes>
+	</test>
+</suite>

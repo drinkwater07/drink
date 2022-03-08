@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BaseSmokeTest93" parallel="false" thread-count="3">
+	<test name="SmokeTestBase">
+		<groups>
+			<run>
+				<include name="Base93"></include></run></groups>
+		<classes>
+			<class name="scripts.BaseSmokeTestCloud"></class>
+		</classes>
+	</test>
+</suite>
+

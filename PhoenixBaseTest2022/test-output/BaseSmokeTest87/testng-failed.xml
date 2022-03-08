@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [BaseSmokeTest87]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" name="SmokeTestCMS(failed)">
+    <groups>
+      <run>
+        <include name="CMS87"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="scripts.BaseSmokeTest87">
+        <methods>
+          <include name="afterRunSuite"/>
+          <include name="beforeMethodRecords"/>
+          <include name="SmokeTestScripts_Training_" invocation-numbers="0"/>
+          <include name="SmokeTestScripts_Video_" invocation-numbers="0"/>
+          <include name="beforeRunSuite"/>
+          <include name="afterMethodRecords"/>
+        </methods>
+      </class> <!-- scripts.BaseSmokeTest87 -->
+    </classes>
+  </test> <!-- SmokeTestCMS(failed) -->
+</suite> <!-- Failed suite [BaseSmokeTest87] -->

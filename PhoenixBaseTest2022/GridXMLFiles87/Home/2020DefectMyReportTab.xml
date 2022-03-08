@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Home2020Defect" parallel="false" thread-count="3">
+	<test name="MyReportScripts">
+		<groups>
+			<run>
+				<include name="2020DefectMyReportTab"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="scripts.HomeScripts"></class>
+		</classes>
+	</test>
+</suite>
